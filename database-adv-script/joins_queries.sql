@@ -32,35 +32,6 @@ FROM
 LEFT JOIN 
     Review ON Property.property_id = Review.property_id;
 
-SELECT 
-    User.user_id,
-    User.first_name,
-    User.last_name,
-    User.email,
-    Booking.booking_id,
-    Booking.property_id,
-    Booking.start_date,
-    Booking.end_date,
-    Booking.total_price,
-    Booking.status
-FROM 
-    User
-LEFT JOIN 
-    Booking ON User.user_id = Booking.user_id
-UNION
-SELECT 
-    User.user_id,
-    User.first_name,
-    User.last_name,
-    User.email,
-    Booking.booking_id,
-    Booking.property_id,
-    Booking.start_date,
-    Booking.end_date,
-    Booking.total_price,
-    Booking.status
-FROM 
-    Booking
-RIGHT JOIN 
-    User ON Booking.user_id = User.user_id;
-
+SELECT u.user_id, u.first_name, u.last_name, b.booking_id, b.property_id, b.booking_date
+FROM User u
+FULL OUTER JOIN Booking b ON u.user_id = b.user_id;
