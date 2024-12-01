@@ -16,3 +16,5 @@ CREATE INDEX booking_date ON Booking(booking_date);
 CREATE INDEX idx_property_id ON Property(property_id);
 
 EXPLAIN SELECT * FROM Booking WHERE user_id = "1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f";
+
+ANALYzE SELECT * FROM Booking WHERE user_id = "1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f";
