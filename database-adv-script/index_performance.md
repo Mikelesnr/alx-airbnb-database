@@ -1,0 +1,2 @@
+EXPLAIN SELECT \* FROM Booking WHERE user_id = "1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f"
+22:12:43 EXPLAIN SELECT \* FROM Booking WHERE user_id = "1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f" 1 row(s) returned 0.00045 sec / 0.000018 sec
