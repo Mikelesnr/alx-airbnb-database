@@ -30,7 +30,8 @@ SELECT
 FROM 
     Property
 LEFT JOIN 
-    Review ON Property.property_id = Review.property_id;
+    Review ON Property.property_id = Review.property_id
+ORDER BY Property.name ASC;
 
 SELECT u.user_id, u.first_name, u.last_name, b.booking_id, b.property_id, b.booking_date
 FROM User u
