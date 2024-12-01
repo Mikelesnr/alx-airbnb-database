@@ -14,7 +14,17 @@ INSERT INTO Property (property_id, host_id, name, description, location, pricepe
 -- Sample Data for Booking Table
 INSERT INTO Booking (booking_id, property_id, user_id, start_date, end_date, total_price, status, created_at) VALUES
 ('6e7d8c9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-01', '2024-12-07', 700.00, 'confirmed', CURRENT_TIMESTAMP),
-('7e8d9c0b-1a2f-3e4d-5c6b-7a8b9c0d1e2f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-15', '2024-12-20', 1000.00, 'pending', CURRENT_TIMESTAMP);
+('7e8d9c0b-1a2f-3e4d-5c6b-7a8b9c0d1e2f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-15', '2024-12-20', 1000.00, 'pending', CURRENT_TIMESTAMP),
+('10e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-10', '2024-12-12', 300.00, 'confirmed', CURRENT_TIMESTAMP),
+('11e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-20', '2024-12-22', 400.00, 'confirmed', CURRENT_TIMESTAMP),
+('12e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2024-12-25', '2024-12-27', 300.00, 'confirmed', CURRENT_TIMESTAMP),
+('13e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2025-01-05', '2025-01-07', 400.00, 'confirmed', CURRENT_TIMESTAMP),
+('14e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '1e2d3c4b-5a6f-7e8d-9c0b-1a2b3c4d5e6f', '2025-01-15', '2025-01-17', 300.00, 'confirmed', CURRENT_TIMESTAMP),
+('15e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '2e3d4c5b-6a7f-8e9d-0c1b-2a3b4c5d6e7f', '2024-12-05', '2024-12-08', 400.00, 'confirmed', CURRENT_TIMESTAMP),
+('16e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '2e3d4c5b-6a7f-8e9d-0c1b-2a3b4c5d6e7f', '2024-12-18', '2024-12-21', 600.00, 'confirmed', CURRENT_TIMESTAMP),
+('17e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '2e3d4c5b-6a7f-8e9d-0c1b-2a3b4c5d6e7f', '2024-12-28', '2024-12-30', 400.00, 'confirmed', CURRENT_TIMESTAMP),
+('18e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '5e6d7c8b-9a0f-1e2d-3c4b-5a6b7c8d9e0f', '2e3d4c5b-6a7f-8e9d-0c1b-2a3b4c5d6e7f', '2025-01-10', '2025-01-12', 600.00, 'confirmed', CURRENT_TIMESTAMP),
+('19e7dc9b-0a1f-2e3d-4c5b-6a7b8c9d0e1f', '4e5d6c7b-8a9f-0e1d-2c3b-4a5b6c7d8e9f', '2e3d4c5b-6a7f-8e9d-0c1b-2a3b4c5d6e7f', '2025-01-20', '2025-01-23', 400.00, 'confirmed', CURRENT_TIMESTAMP);
 
 -- Sample Data for Payment Table
 INSERT INTO Payment (payment_id, booking_id, amount, payment_date, payment_method) VALUES
